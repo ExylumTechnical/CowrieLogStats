@@ -13,7 +13,6 @@ END='\033[0m'
 
 # log parsing stuff
 if [ -f $1 ] && [ $1 ]; then
-#LOGFILE="/media/backup/honeypot/CURRENT/cowrie.txt"
 LOGFILE=$1
 STARTTIME=$(head -n 1 $LOGFILE | awk '{print $1}' | awk -F. '{print $1}' | awk -F"T" '{print $1" "$2}')
 ENDTIME=$(tail -n 1 $LOGFILE | awk '{print $1}' | awk -F. '{print $1}' | awk -F"T" '{print $1" "$2}' )
