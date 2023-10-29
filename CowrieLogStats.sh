@@ -1,6 +1,6 @@
 #!/bin/bash
 # created by Nicholas Howland on 10/29/2023
-# Published without warrenty or guarentee
+# Published without warrenty or guarentee of any kind
 # Anyone is free to use, modify, or add to this code as desired.
 
 # some beautification stuff
@@ -41,7 +41,9 @@ echo "_________                       .__
              /_____/        \/            \/          \/ "
 echo
 echo -e  ${PURP}\########################################################${END}
-echo "Disclaimer: file supplied must be a text log produced from a Cowrie Honypot using the default log format"
+echo "The file supplied must be a text log produced from a Cowrie Honypot using the default log format"
+echo "This is free software and can be used or modified by anyone without warrenty or guarentee of any kind"
+echo "The Cowrie honeypot repository can be found here: https://github.com/cowrie/cowrie"
 echo
 echo -e "Gathering info from the log file: ${CYAN}$LOGFILE${END}"
 echo -e "Log covers from $STARTTIME to $ENDTIME"
